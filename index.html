@@ -4,106 +4,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fernando Morata</title>
+    <!-- Meta Tags para WhatsApp e Redes Sociais -->
+    <meta property="og:title" content="Morata Tech - Manutenção de Computadores em Sertãozinho">
+    <meta property="og:description"
+        content="Atendimento em domicílio, formatação, upgrades e manutenção técnica transparente. Fale conosco!">
+    <meta property="og:type" content="website">
+    <meta name="description"
+        content="Morata Tech - Assistência técnica e manutenção de computadores e notebooks em Sertãozinho. Atendimento em domicílio com transparência e garantia.">
+    <title>Morata Tech - Fernando Franke Morata</title>
+    <link rel="icon" href="https://fav.farm/💻" type="image/svg+xml">
 
+    <!-- Fontes do Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
+    <!-- Estilos CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Biblioteca de Animação de Scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
+    <!-- =========================
+         NAVBAR / HEADER
+    ========================== -->
     <header class="header">
-        <div class="conteiner">
+        <div class="container">
             <nav class="navbar">
-                <a href="#home" class="logo">Fernando Morata TI</a>
+                <a href="#sobre" class="logo">Morata Tech</a>
 
                 <ul class="nav-links">
                     <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#habilidades">Serviços</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
-
-
+        </div>
     </header>
 
     <main>
 
         <!-- =========================
-             SOBRE MIM
+             SOBRE MIM / MORATA TECH
         ========================== -->
         <section id="sobre" class="section">
             <div class="container">
                 <div class="section-title">
-                    <h2>Sobre Morata TI</h2>
-                    <p>Uma visão completa.</p>
+                    <h2>Morata Tech</h2>
+                    <p>Soluções em tecnologia com transparência e eficiência em Sertãozinho.</p>
                 </div>
 
-                <article class="about-card">
-                    <p>
-                        Sou apaixonado por tecnologia e estou em constante
-                        evolução como profissional. Minha trajetória une
-                        duas áreas fundamentais do universo tecnológico:
-                        o desenvolvimento de software e a manutenção de
-                        sistemas computacionais.
-                    </p>
+                <div class="about-wrapper">
+                    <!-- Card Principal -->
+                    <article class="about-card intro-card">
+                        <h3>Muito prazer, sou o Fernando Morata!</h3>
+                        <p>
+                            Sei o quanto é frustrante ficar sem computador no dia a dia ou não entender exatamente pelo
+                            que está pagando. Por isso, criei a <strong>Morata Tech</strong> com uma missão clara:
+                            entregar um serviço honesto, transparente e sem "tecniquês".
+                        </p>
+                        <p>
+                            Minha bagagem em hardware me permite diagnosticar com precisão a saúde física da sua
+                            máquina, garantindo a melhor solução sem enrolação.
+                        </p>
+                    </article>
 
-                    <p>
-                        Como desenvolvedor web, busco criar interfaces
-                        modernas, intuitivas e responsivas utilizando
-                        HTML5, CSS3 e JavaScript. Já minha experiência
-                        com hardware me proporciona uma compreensão ampla
-                        do funcionamento físico das máquinas, permitindo
-                        enxergar a tecnologia de forma completa.
-                    </p>
+                    <!-- Cards de Diferenciais -->
+                    <div class="features-grid">
+                        <article class="feature-card">
+                            <div class="feature-icon">🚗</div>
+                            <h4>Atendimento em Domicílio</h4>
+                            <p>Atendo você no conforto da sua casa em Sertãozinho. Se o reparo exigir laboratório, levo
+                                e entrego sua máquina com total segurança.</p>
+                        </article>
 
-                    <p>
-                        Acredito que grandes soluções surgem quando
-                        entendemos tanto o código quanto a infraestrutura
-                        que o sustenta.
-                    </p>
-                </article>
+                        <article class="feature-card">
+                            <div class="feature-icon">🛠️</div>
+                            <h4>Soluções Completas</h4>
+                            <p>Formatação, limpeza preventiva, montagem de PCs, troca de peças, upgrades, remoção de
+                                vírus e recuperação de dados.</p>
+                        </article>
+
+                        <article class="feature-card">
+                            <div class="feature-icon">🛡️</div>
+                            <h4>Garantia & Transparência</h4>
+                            <p>Orçamento claro aprovado antes de qualquer serviço e garantia total no trabalho
+                                realizado.</p>
+                        </article>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- =========================
-             HABILIDADES
+             ESPECIALIDADES & SERVIÇOS
         ========================== -->
         <section id="habilidades" class="section">
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Habilidades & Tecnologias</h2>
-                    <p>Conhecimentos que conectam software e hardware.</p>
+                    <h2>Especialidades & Serviços</h2>
+                    <p>Manutenção técnica especializada para o seu computador ou notebook.</p>
                 </div>
 
                 <div class="skills-grid">
 
-                    <article class="skill-card">
-                        <h3>💻 Desenvolvimento Web</h3>
+                    <!-- Card Principal: Hardware -->
+                    <article class="skill-card primary-skill">
+                        <div class="card-header">
+                            <h3>🖥️ Manutenção de Hardware & Notebooks</h3>
+                            <span class="badge-tag main-tag">Foco Principal</span>
+                        </div>
+                        <p class="skill-description">
+                            Serviço técnico especializado para diagnosticar, consertar e otimizar o desempenho da sua
+                            máquina.
+                        </p>
+
+                        <div class="badges">
+                            <span>Manutenção Preventiva</span>
+                            <span>Upgrade de SSD & RAM</span>
+                            <span>Diagnóstico Técnico</span>
+                            <span>Remoção de Vírus</span>
+                            <span>Formatação & Reinstalação</span>
+                            <span>Montagem de PCs</span>
+                            <span>Recuperação de Dados</span>
+                            <span>Limpeza Interna & Pasta Térmica</span>
+                        </div>
+                    </article>
+
+                    <!-- Card Secundário: Dev Web -->
+                    <article class="skill-card secondary-skill">
+                        <div class="card-header">
+                            <h3>💻 Criação de Landing Pages</h3>
+                            <span class="badge-tag info-tag">Serviço Complementar</span>
+                        </div>
+                        <p class="skill-description">
+                            Desenvolvimento de páginas de vendas e sites institucionais simples para apresentar negócios
+                            e profissionais na internet.
+                        </p>
 
                         <div class="badges">
                             <span>HTML5</span>
                             <span>CSS3</span>
                             <span>JavaScript</span>
+                            <span>Landing Pages</span>
                             <span>Design Responsivo</span>
-                            <span>UI/UX</span>
-                            <span>Acessibilidade</span>
-                        </div>
-                    </article>
-
-                    <article class="skill-card">
-                        <h3>🖥️ Hardware & Sistemas</h3>
-
-                        <div class="badges">
-                            <span>Manutenção</span>
-                            <span>Upgrade de Hardware</span>
-                            <span>Diagnóstico</span>
-                            <span>Remoção de Vírus</span>
-                            <span>Formatação</span>
-                            <span>Suporte Técnico</span>
                         </div>
                     </article>
 
@@ -119,29 +166,24 @@
 
                 <div class="section-title">
                     <h2>Contato</h2>
-                    <p>Vamos construir algo incrível juntos.</p>
+                    <p>Entre em contato para orçamentos ou dúvidas.</p>
                 </div>
 
                 <div class="contact-links">
-                    <a href="https://github.com/moratalvlup" target="_blank">
+                    <a href="https://github.com/moratalvlup" target="_blank" rel="noopener noreferrer">
                         GitHub
                     </a>
 
-                    <a href="https://www.linkedin.com/in/fernando-franke-morata-170b71167/" target="_blank">
+                    <a href="https://www.linkedin.com/in/fernando-franke-morata-170b71167/" target="_blank"
+                        rel="noopener noreferrer">
                         LinkedIn
                     </a>
 
-                    <a href="mailto:ffranke.m@gmail.com">
-                        ffranke.m@gmail.com
+                    <a href="mailto:moratatech@gmail.com">
+                        moratatech@gmail.com
                     </a>
 
-                    <a href="https://wa.me/5516997366934" class="whatsapp-float" target="_blank"
-                        rel="noopener noreferrer" aria-label="Entrar em contato pelo WhatsApp">
-                        <img src="https://img.icons8.com/?size=100&id=BkugfgmBwtEI&format=png&color=000000"
-                            alt="iconewhats">
-                    </a>
-
-                    <a href="https://wa.me/5516997366934" target="_blank">
+                    <a href="https://wa.me/5516997366934" target="_blank" rel="noopener noreferrer">
                         WhatsApp
                     </a>
                 </div>
@@ -151,17 +193,26 @@
 
     </main>
 
+    <!-- Botão Flutuante do WhatsApp -->
+    <a href="https://wa.me/5516997366934" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+        aria-label="Falar no WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path fill="#ffffff"
+                d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3 18.6-68.1-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+        </svg>
+    </a>
+
     <!-- =========================
          FOOTER
     ========================== -->
     <footer class="footer">
         <div class="container">
-            <p>
-                © Morata Tech - 2026 - Fernando Franke Morata.
-            </p>
+            <p>© Morata Tech - 2026 - Fernando Franke Morata.</p>
         </div>
     </footer>
 
+    <!-- Script JavaScript Executável -->
+    <script src="script.js"></script>
 </body>
 
 </html>
